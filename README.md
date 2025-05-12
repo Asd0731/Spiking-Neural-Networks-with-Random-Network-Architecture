@@ -184,7 +184,7 @@ for batch in range(400):
     my_train_loss_hist.append(train_loss.item())
 end_time = time.time()
 elapsed_time = end_time - start_time
-print(f"操作所花费的时间为: {elapsed_time} 秒")
+print(f"time: {elapsed_time} s")
 ```
 
 ### Section 5: Summary
